@@ -2,11 +2,14 @@
 .container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    max-width: 1200px;
+    margin:0px auto;
+    gap:20px;
 }
 img{
     height: 350px;
     width:600px;
-    border:10px solid rgb(248, 17, 17);
+    border:10px solid rgb(255, 255, 255);
     border-radius: 50%;
 }
 img,p{
@@ -16,12 +19,27 @@ img,p{
     font-weight: 400;
     font-style: normal;
     margin-bottom:20px;
-
+}
+p{
+    border:2px solid grey;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(255, 255, 255);
+    font-weight: 600;
+    color:rgb(0, 0, 0);
 }
 h1{
     grid-column: span 2;
     background-color: rgb(255, 0, 0);
     text-align: center;
-    border:2px solid blue;
+    border:2px solid rgb(255, 255, 255);
     border-radius: 10px;
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+}
+body{
+    background-color:rgb(187, 173, 173);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
