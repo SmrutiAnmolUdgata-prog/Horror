@@ -1,0 +1,27 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+img{
+    height: 350px;
+    width:600px;
+    border:10px solid rgb(248, 17, 17);
+    border-radius: 50%;
+}
+img,p{
+    justify-self: center;
+    padding:20px;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom:20px;
+
+}
+h1{
+    grid-column: span 2;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    border:2px solid blue;
+    border-radius: 10px;
+}
